@@ -1,0 +1,362 @@
+@media (max-width: 500px){
+    body{
+        width: 100%
+    }
+
+    .topSection{
+        padding: 2%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+    .featuresSection{
+        margin-top: 8vh;
+        padding: 2%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .aboutSection{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 2%;
+    }
+
+    .teamSection{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 2%;
+    }
+
+    .videoSection{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 2%;
+    }
+
+    footer{
+        padding: 2%;
+    }
+
+
+    /* ************   TOP SECTION   ************* */
+
+
+        .nav-menu {
+            position: absolute;
+            left: -100%;
+            top: 5rem;
+            flex-direction: column;
+            background-color: #fff;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+        }
+    
+        .nav-menu.active {
+            left: 0;
+        }
+    
+        .nav-item {
+            margin: 1rem 0;
+        }
+    
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+    
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+    
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+
+        .firstButton{
+            display: none;
+        }
+
+    .Header{
+        margin-top: 5vh;
+    }
+
+    .headerColumn1{
+
+        margin: 30px 0 0 0 ;
+        width: 100%;
+    }
+
+    .headerColumn2{
+        display: none;
+    }
+
+    .firstimage{
+        display: none;
+    }
+
+    .headerHead{
+        width: 100%;
+        font-size: 7vw;
+        line-height: 10vw;
+    }
+
+
+
+    /* ***************   FEATURE SECTION   *************** */   
+
+   
+    .allFeatures {
+        justify-content: space-around;
+    }
+
+    .featureHead{
+        width: 100%;
+        font-size: 7vw;
+        line-height: 10vw;
+
+    }
+
+    .featureInfo{
+        width: 100%;
+    }
+
+    .featureNumber {
+        color: #F58A07;
+        line-height: 30px;
+        font-size: 24px;
+        font-weight: 800;
+    }
+    
+    .featureTitle {
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: -0.03em;
+    }
+    
+    .featureDescription {
+        margin-top: 10px;
+        color: #5B5B5B;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 5vw;
+    }
+    
+    .feature{
+        margin-top: 30px;
+        height: 192px;
+        width: 35%;
+        display: inline-block;
+    }
+
+
+         /* ************   ABOUT SECTION   ************* */
+
+
+         .aboutSection{
+            margin-top: 100px;
+            margin-top: 5vh;
+        }
+    
+        .aboutColumn1{
+            margin: 0;
+            width: 100%;
+        }
+     
+        .aboutHead{
+    
+            font-size: 7vw;
+            line-height: 10vw;
+        }
+    
+        .aboutDescription{
+            width: 100%;
+        }
+
+    .aboutColumn2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutImage {
+        margin: 4vh;
+        justify-content: center;
+        width: 90%;
+        height: auto;
+    }
+
+    .orangeSquare{
+        display: none;
+    }
+
+
+    
+        /* **************   TEAM SECTION   *************** */
+    
+    
+        .teamHeader{
+            width: 100%;
+            margin-top: 2vh;
+        }
+        
+        .teamHeaderText{
+            width: 100%;
+            font-size: 7vw;
+            line-height: 10vw;
+    
+        }
+    
+        .teamDescription{
+            margin: 0;
+        }
+    
+        .teamDescriptionText{
+            width: 100%;
+        }
+    
+        .imageContainer{
+            margin: 0;
+            justify-content: space-around;
+        }
+    
+        .teamImage{
+            width: 35%;
+            height: auto;
+            margin: 30px 0 0 0;
+        }
+    
+
+
+    /* ************   VIDEO SECTION   ************ */
+
+
+    .videoColumn1{
+        width: 100%;
+    }
+
+    .videoColumn1Header {
+        font-size: 36px;
+        line-height: 48px;
+        margin-top: 78px;
+        letter-spacing: -0.03em;
+    }
+    
+    .videoColumn1Description {
+        margin-top: 20px;
+        line-height: 25px;
+        font-weight: 500;
+        color: #5B5B5B;
+    
+    }
+    
+    .videoPerson {
+        margin-top: 20px;
+        display: flex;
+    }
+    
+    .personImage {
+        margin: 0%;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .personProfile {
+        margin-left: 15px;
+        margin-top: 9px;
+    }
+    
+    .personName {
+        line-height: 2.5vh;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+    .personTitle {
+        margin-top: 2px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        color: #F58A07;
+    }
+    
+    .videoSection{
+        margin: 40px 0 0 0;
+    }
+
+
+    .videoColumn2{
+        width: 100%;
+        margin: 50px 0 0 0;
+    }
+    
+    .videoImage {
+        margin: 0;
+        width: 90%;
+        height: auto;
+    }
+    
+
+     /* ************   LATEST SECTION    ************* */
+
+
+    .latestContent{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 2%;
+    }   
+
+    
+
+
+
+    /* ************   FOOTER   ************* */
+
+    .footerContent{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 2%;
+    }
+
+    .leftOrange{
+        display: none;
+    }
+
+    .rightOrange{
+        display: none;
+    }
+
+    .footerColumn1{
+        width: 100%;
+        margin: 3vh 0;
+    }
+
+    .footerColumn2{
+        margin: 3vh 0;
+    }
+
+    .footerColumn3{
+        margin: 3vh 0;
+    }
+
+    .footerColumn4{
+        margin: 3vh 0;
+    }
+
+    .end{
+        margin: 0;
+    }
+}
+
+
+
+
